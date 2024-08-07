@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zahraa</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mediaqueries.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    </head>
-    <body>
-        <nav id="desktop-nav">
-            <div class="logo">ZAHRAA</div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">experience</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahraa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">ZAHRAA</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">about</a></li>
+                <li><a href="#">experience</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">ZAHRAA</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-        <nav id="hamburger-nav">
-            <div class="logo">ZAHRAA</div>
-            <div class="hamburger-menu">
-              <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div class="menu-links">
+            <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-              </div>
             </div>
-        <script src="script.js"></script>
-    </body>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="images/profile.jpg" alt="profile picture">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
 </html>

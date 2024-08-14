@@ -305,3 +305,42 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+#experience{
+    position: relative
+}
+
+.experience-sub-title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    font-size: 0.75rem;
+}
+
+article .icon{
+    cursor: default;
+    height: 1.5rem;
+    width: 1.5rem;
+}
